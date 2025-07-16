@@ -1,69 +1,113 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/theme/resume/)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anil Kumar Tippavajjula – HSE & EHS Professional</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      background: #fff;
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    p {
+      line-height: 1.6;
+    }
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .contact a {
+      color: #3498db;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Anil Kumar Tippavajjula</h1>
+    <p><strong>Email:</strong> <a href="mailto:anilkumartippavajjula@gmail.com">anilkumartippavajjula@gmail.com</a></p>
+    <p><strong>Phone:</strong> +91 9032-0389-73, +91 7093-5353-19</p>
 
-[Resume](https://startbootstrap.com/theme/resume/) is a resume and CV theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+    <div class="section">
+      <h2>Profile Summary</h2>
+      <p>
+        EHS and Safety professional with over 7.5 years of diverse experience in manufacturing, chemical, and construction industries. 
+        Currently serving as Executive – HSE & Sustainability at MRF Tyres Limited. Certified with NEBOSH-IGC, IOSH (UK), and Diploma in Industrial Safety. 
+        Proven track record in implementing safety strategies, compliance, audits, training, and emergency preparedness.
+      </p>
+    </div>
 
-## Preview
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>M.Tech in Environmental, Occupational Health & Safety</strong> – JNTU Kakinada (2020), 85%</li>
+        <li><strong>B.Tech in Mechanical Engineering</strong> – May 2014</li>
+      </ul>
+    </div>
 
-[![Resume Preview](https://assets.startbootstrap.com/img/screenshots/themes/resume.png)](https://startbootstrap.github.io/startbootstrap-resume/)
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>NEBOSH International General Certificate (IGC)</li>
+        <li>IOSH Managing Safely – UK</li>
+        <li>Diploma in Industrial Safety – AP State Factory Rules</li>
+      </ul>
+    </div>
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-resume/)**
+    <div class="section">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Executive – HSE & Sustainability, MRF Tyres Ltd</strong> (Feb 2025 – Present)</li>
+        <li><strong>Assistant Manager – HSE, Grasim Industries Ltd</strong> (May 2021 – Feb 2025)</li>
+        <li><strong>Safety Officer, Coromandel SQM (India)</strong> (Oct 2017 – Oct 2018)</li>
+        <li><strong>Safety Officer, Lumen Engineering</strong> (Sep 2016 – Apr 2017)</li>
+        <li><strong>QA-QC Engineer, Indus Projects Ltd</strong> (Jan 2015 – Aug 2016)</li>
+        <li><strong>GET (Condition Monitoring), ACME Pvt. Ltd</strong> (Jun 2014 – Sep 2014)</li>
+      </ul>
+    </div>
 
-## Status
+    <div class="section">
+      <h2>Achievements</h2>
+      <ul>
+        <li>Best Safety Officer – Grasim Industries Ltd (FY 2022–23)</li>
+        <li>Safety Champion – Q2 FY 2022–23</li>
+      </ul>
+    </div>
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-resume/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Risk Assessment & Safety Audits</li>
+        <li>Incident Investigation (Root Cause, CAPA)</li>
+        <li>HSE Metrics Reporting (ENABLON)</li>
+        <li>Mock Drills & Emergency Preparedness</li>
+        <li>Training & Safety Campaigns</li>
+        <li>Environmental Compliance</li>
+      </ul>
+    </div>
 
-## Download and Installation
+    <div class="section contact">
+      <h2>Contact</h2>
+      <p>📧 <a href="mailto:anilkumartippavajjula@gmail.com">anilkumartippavajjula@gmail.com</a><br>
+      📱 +91 9032-0389-73<br>
+      🌐 <a href="https://github.com/anilhse" target="_blank">GitHub: anilhse</a> (or whatever username you set)</p>
+    </div>
+  </div>
+</body>
+</html>
 
-To begin using this template, choose one of the following options to get started:
-
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/resume/)
-- Install using npm: `npm i startbootstrap-resume`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-resume.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-resume)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
-
-#### npm Scripts
-
-- `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-- `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-- `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-- `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-- `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-- `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-- `npm run start:debug` runs the project in debug mode
-- `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
-
-You must have npm installed in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-resume/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/theme/resume/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-- <https://startbootstrap.com>
-- <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](https://davidmiller.io/)**.
-
-- <https://davidmiller.io>
-- <https://twitter.com/davidmillerhere>
-- <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2023 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE) license.
