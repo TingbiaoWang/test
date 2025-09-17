@@ -1,6 +1,6 @@
 /*!
 * Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2023 Start Bootstrap
+* Copyright 2013-2025 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
 //
@@ -30,5 +30,24 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+
+    // Close navbar when clicking outside of it (accessibility improvement)
+    const navbarCollapse = document.body.querySelector('#navbarResponsive');
+    if (navbarToggler && navbarCollapse) {
+        document.addEventListener('click', (event) => {
+            // Check if navbar is expanded and toggler is visible (mobile view)
+            const isNavbarExpanded = navbarCollapse.classList.contains('show');
+            const isTogglerVisible = window.getComputedStyle(navbarToggler).display !== 'none';
+            
+            if (isNavbarExpanded && isTogglerVisible) {
+                // Check if click is outside the navbar
+                const isClickInsideNav = sideNav.contains(event.target);
+                
+                if (!isClickInsideNav) {
+                    navbarToggler.click();
+                }
+            }
+        });
+    }
 
 });
